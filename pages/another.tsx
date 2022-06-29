@@ -1,13 +1,13 @@
 import type { NextPage } from "next";
 import styles from "../styles/Home.module.css";
-import HomePage from "../src/components/Home";
+import AnotherPage from "../src/components/AnotherPage";
 
-const Home: NextPage = () => {
+const Another: NextPage = () => {
   return (
     <div className={styles.container}>
-      <HomePage />
+      <AnotherPage />
     </div>
   );
 };
 
-export default Home;
+export default Another;
